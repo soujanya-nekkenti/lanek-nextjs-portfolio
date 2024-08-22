@@ -1,17 +1,7 @@
+import { skills } from '@/data/Data';
 import Image from 'next/image';
 
 export const AboutSection = () => {
-  const skills = [
-    { skill: 'HTML' },
-    { skill: 'CSS' },
-    { skill: 'React' },
-    { skill: 'Next' },
-    { skill: 'Typescript' },
-    { skill: 'Node' },
-    { skill: 'Git' },
-    { skill: 'React Hooks' },
-    { skill: 'Styled Components' },
-  ];
   return (
     <section id="about">
       <div className="my-16 pb-12 md:py-28">
@@ -30,13 +20,16 @@ export const AboutSection = () => {
               <span className="font-bold">{'highly ambitious'}</span>,
               <span className="font-bold">{' self-motivated'}</span>, and
               <span className="font-bold">{' driven'}</span> software engineer
-              based in Stockholm, Sweden.
+              based in Stockholm, Sweden with over 7 years of experience in
+              Frontend development.
             </p>
             <br />
             <p>
               I graduated from Blekinge Tekniska Hogskolan, Sweden in 2017 with
               a Masters in Software Engineering and have been working in the
-              field ever since.
+              field ever since. Since, then worked with big scale to small scale
+              projects across different domains (Fin-tech, E-commerce, Gaming,
+              Administration etc..).
             </p>
             <br />
             <p>

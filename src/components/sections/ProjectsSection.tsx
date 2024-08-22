@@ -1,27 +1,10 @@
+import { projects } from '@/data/Data';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsGithub } from 'react-icons/bs';
 import SlideUp from '../SlideUp';
 
 export const ProjectsSection = () => {
-  const projects = [
-    {
-      name: 'RealTime Chat Appplication',
-      description:
-        'This project was bootstrapped with Create React App. The frontend is designed with Styled components. The app is built to send and receive messages using web sockets and Socket.io in real time.',
-      image: '/project-image.png',
-      github:
-        'https://github.com/soujanya-nekkenti/chat-app?tab=readme-ov-file',
-    },
-    {
-      name: 'Landing-Page Starter template',
-      description:
-        'This React landing page template designed to have quick, responsive and professional landing page for their business or project.',
-      image: '/project-image.png',
-      github: 'https://github.com/soujanya-nekkenti/Landing-Page',
-    },
-  ];
-
   return (
     <section id="projects">
       <div className="my-16 pb-12 md:py-20">
