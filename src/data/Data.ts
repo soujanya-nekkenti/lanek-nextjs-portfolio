@@ -60,7 +60,7 @@ export const projects = [
     name: 'Next.js Portfolio',
     description:
       'This is React portfolio website built with Nextjs and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.',
-    image: '/Portfolio.PNG',
+    image: '/portfolio.PNG',
     github: 'https://github.com/soujanya-nekkenti/Landing-Page',
   },
 ];
