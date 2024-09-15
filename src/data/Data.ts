@@ -53,14 +53,14 @@ export const projects = [
     name: 'RealTime Chat Appplication',
     description:
       'This project was bootstrapped with Create React App. The frontend is designed with Styled components. The app is built to send and receive messages using web sockets and Socket.io in real time.',
-    image: '/project-image.png',
+    image: '/chat-app.png',
     github: 'https://github.com/soujanya-nekkenti/chat-app?tab=readme-ov-file',
   },
   {
-    name: 'Landing-Page Starter template',
+    name: 'Next.js Portfolio',
     description:
-      'This React landing page template designed to have quick, responsive and professional landing page for their business or project.',
-    image: '/project-image.png',
+      'This is React portfolio website built with Nextjs and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.',
+    image: '/Portfolio.PNG',
     github: 'https://github.com/soujanya-nekkenti/Landing-Page',
   },
 ];

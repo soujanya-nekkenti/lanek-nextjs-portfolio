@@ -27,6 +27,10 @@ const NAV_ITEMS: NavItem[] = [
     label: 'Projects',
     page: '#projects',
   },
+  {
+    label: 'Contact',
+    page: '#contact',
+  },
 ];
 
 const Navbar = () => {
@@ -35,7 +39,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow sm:px-20 dark:border-b dark:border-stone-600 dark:bg-stone-900">
+    <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow dark:border-b dark:border-stone-600 dark:bg-stone-900 sm:px-20">
       <div className="justify-between md:flex md:items-center">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
@@ -71,7 +75,7 @@ const Navbar = () => {
                     href={item.page}
                     onClick={() => setNavbar(!navbar)}
                     className={
-                      'block cursor-pointer hover:text-neutral-500 lg:inline-block dark:text-neutral-100'
+                      'block cursor-pointer hover:text-neutral-500 dark:text-neutral-100 lg:inline-block'
                     }
                   >
                     {item.label}
